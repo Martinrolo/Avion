@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+
+#canvas1 {
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid white;
+}
+
+#planeImage, #backgroundImage, #airportImage {
+    display: none;
+}
+
+.controls {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 60px;
+    background-color: black;
+    border: 5px solid white;
+}
+
+.speed, .altitude, .thrust {
+    color: white;
+    font-size: 30px;
+}
